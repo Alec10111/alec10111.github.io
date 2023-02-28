@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Alec10111 Developer Blog</title>
+    <link>https://alec10111.github.io/</link>
+    <description>Recent content on Alec10111 Developer Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 28 Feb 2023 15:38:07 +0100</lastBuildDate><atom:link href="https://alec10111.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Docker Introduction</title>
+      <link>https://alec10111.github.io/posts/docker-introduction/</link>
+      <pubDate>Tue, 28 Feb 2023 15:38:07 +0100</pubDate>
+      
+      <guid>https://alec10111.github.io/posts/docker-introduction/</guid>
+      <description>Docker for beginners Introduction Docker is an essential part of modern software development. This post serves as an introduction to the fundamentals of Docker, including a practical example.
+What is Docker? Docker is an open-source platform written in Go that allows developers to create, deploy, and run applications in containers, providing a consistent and portable environment across different machines and operating systems.
+Instead of emulating an entire OS like a virtual machines, Docker shares the host operating system kernel and only requires the necessary libraries and dependencies to run the application, resulting in lower resource utilisation.</description>
+    </item>
+    
+  </channel>
+</rss>
