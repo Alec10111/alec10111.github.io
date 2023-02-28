@@ -16,14 +16,14 @@
 
 
 
-<title>Docker Introduction - Alec10111 Developer Blog</title>
+<title>Docker Fundamentals - Alec10111 Developer Blog</title>
 
 
 
 
 
-<meta property="og:title" content="Docker Introduction" />
-<meta name="twitter:title" content="Docker Introduction" />
+<meta property="og:title" content="Docker Fundamentals" />
+<meta name="twitter:title" content="Docker Fundamentals" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://alec10111.github.io/posts/docker-introduction/" /><meta property="og:description" content="Introduction Docker is an essential part of modern software development. This post serves as an introduction to the fundamentals of Docker, including a practical example.
 What is Docker? Docker is an open-source platform written in Go that allows developers to create, deploy, and run applications in containers, providing a consistent and portable environment across different machines and operating systems.
@@ -94,7 +94,7 @@ Instead of emulating an entire OS like a virtual machines, Docker shares the hos
 <article>
     
     <h2 class="post-item post-title">
-        <a href="https://alec10111.github.io/posts/docker-introduction/">Docker Introduction</a>
+        <a href="https://alec10111.github.io/posts/docker-introduction/">Docker Fundamentals</a>
     </h2>
     <div class="post-item post-meta">
         <span><i class="iconfont icon-today-sharp"></i>&nbsp;2023-02-28</span>
@@ -114,14 +114,14 @@ Instead of emulating an entire OS like a virtual machines, Docker shares the hos
 <p>With docker, the development environment can be easily reproduced. This ensures that everyone on the team is working with the same dependencies, configurations, and versions, hence reducing compatibility issues and errors.</p>
 <p>Docker&rsquo;s fundamental blocks are containers and images.</p>
 <h2 id="containers">Containers</h2>
-<p>A container is a process that creates an isolated environment to run your software with its own file system, networking, and resources. This makes it possible to run multiple applications on the same server, without conflicts or interference between them.
-Although they are isolated, containers may communicate with other containers using a standardised interface (Docker networks).
-They can run on local machines, virtual machines, or cloud-based servers, and can be easily scaled up or down on traffic demand.</p>
+<p>A container is a process that creates an isolated environment to run your software with its own file system, networking, and resources. This makes it possible to run multiple applications on the same server, without conflicts or interference between them.</p>
+<p>Although they are isolated, containers may communicate with other containers using a standardised interface (Docker networks).</p>
+<p>They can run on local machines, virtual machines, or cloud-based servers, and can be easily scaled up or down on traffic demand.</p>
 <h2 id="images">Images</h2>
-<p>Docker images are templates from which containers are created, this is, a set of instructions on how to build and configure them. To create an image you need a Dockerfile, a file containing commands to install and configure the necessary software, copy the application code to the container, expose the appropriate ports for communication and so on.
-Images can be stored in a remote registry, such as Docker Hub, accessible to other developers or team members. Docker images are immutable, meaning that they cannot be changed once they are created. This ensures consistency and reproducibility across different environments and deployments.
-Any modifications or updates must be made by building a new image based on the original one. (the FROM command on the Dockerfile)
-<strong>Note:</strong> Containers can be modified during runtime, but such changes are not reflected in the original image and are lost when the container is deleted or stopped.</p>
+<p>Docker images are templates from which containers are created, this is, a set of instructions on how to build and configure them. To create an image you need a Dockerfile, a file containing commands to install and configure the necessary software, copy the application code to the container, expose the appropriate ports for communication and so on.</p>
+<p>Images can be stored in a remote registry, such as Docker Hub, accessible to other developers or team members. Docker images are immutable, meaning that they cannot be changed once they are created. This ensures consistency and reproducibility across different environments and deployments.</p>
+<p>Any modifications or updates must be made by building a new image based on the original one. (the FROM command on the Dockerfile)</p>
+<p><strong>Note:</strong> Containers can be modified during runtime, but such changes are not reflected in the original image and are lost when the container is deleted or stopped.</p>
 <h2 id="practical-example">Practical example</h2>
 <p>To demonstrate how docker works, we will build a small FastApi server with Python running inside a docker container.
 The only pre-requisite is that you have docker installed on your system. The easiest way is to get Docker desktop, which already features the docker cli.</p>
