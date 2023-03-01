@@ -1,12 +1,25 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Alec10111 Developer Blog</title>
+    <title>Carlos Fernandez Dev Blog</title>
     <link>https://alec10111.github.io/</link>
-    <description>Recent content on Alec10111 Developer Blog</description>
+    <description>Recent content on Carlos Fernandez Dev Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Tue, 28 Feb 2023 15:38:07 +0100</lastBuildDate><atom:link href="https://alec10111.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About Me</title>
+      <link>https://alec10111.github.io/about/</link>
+      <pubDate>Wed, 01 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://alec10111.github.io/about/</guid>
+      <description>As the subtitle of the blog says, Im a washed up mathematician turned programmer.
+I Graduated in Mathematics at the University of Malaga and redirected my career towards programming. During University I gave programming lessons to other graduate students in Scala and Haskell. I’m currently working as Backend Developer at Cathedral Software.
+I enjoy learning new technologies and I’m always up for the challenge of acquiring new skills.
+Contact You can contact me via email: cafl.23w@gmail.com or on my Linkedin
+You can also drop a message on my Instagram or Twitter (I dont check those regularly, so be aware) And I post in spanish.</description>
+    </item>
+    
     <item>
       <title>Docker Fundamentals</title>
       <link>https://alec10111.github.io/posts/docker-introduction/</link>
@@ -17,21 +30,6 @@
 &lt;p&gt;Docker is an essential part of modern software development. This post serves as an introduction to the fundamentals of Docker, including a practical example.&lt;/p&gt;
 &lt;h2 id=&#34;what-is-docker&#34;&gt;What is Docker?&lt;/h2&gt;
 &lt;p&gt;Docker is an open-source platform written in Go that allows developers to create, deploy, and run applications in containers, providing a consistent and portable environment across different machines and operating systems.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>About Me</title>
-      <link>https://alec10111.github.io/about/</link>
-      <pubDate>Sat, 11 Apr 2020 19:15:32 +0800</pubDate>
-      
-      <guid>https://alec10111.github.io/about/</guid>
-      <description>My name is Carlos and I am 25. Graduated in Mathematics at the University of Malaga. I specialise in Algebra, Topology and Programming.
-I have been giving programming lessons to other graduate students in Scala and Haskell.
-I’m currently working as Backend Developer at Cathedral Software in Malaga, Spain.
-I enjoy learning new technologies and I’m always up for the challenge of acquiring new skills.
-Isn’t that your LinkedIn bio? Its literally my LinkedIn bio, 90% copy pasted. I’ll update this page soon with more personal info.
-Contact You can contact me via email: cafl.23w@gmail.com
-You can also drop a message on my Instagram or Twitter (I dont check those regularly, so be aware) And I post in spanish.</description>
     </item>
     
   </channel>
